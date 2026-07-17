@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "@opentelemetry/sdk-logs": "^0.218.0"
+    "@opentelemetry/sdk-logs": "^0.220.0"
   }
 }
