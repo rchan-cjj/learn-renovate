@@ -7,7 +7,7 @@
   "packageRules": [
     {
       "matchDatasources": ["npm"],
-      "matchPackageNames": ["@opentelemetry/*"],
+      "matchPackagePatterns": ["^@opentelemetry/"],
       "enabled": false
     }
   ],
@@ -20,7 +20,7 @@
       ],
       "datasourceTemplate": "github-releases",
       "packageNameTemplate": "open-telemetry/opentelemetry-js",
-      "extractVersionTemplate": "^api/v?(?<version>.+)$"
+      "extractVersionTemplate": "^api/v(?<version>.+)$"
     }
   ]
 }
