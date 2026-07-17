@@ -10,8 +10,7 @@
       "matchDatasources": ["npm"],
       "matchPackageNames": [
         "@opentelemetry/api"
-      ],
-      "changelogUrl": "https://github.com/open-telemetry/opentelemetry-js/releases/tag/experimental%2Fv{{newVersion}}"
+      ]
     }
   ]
 }
