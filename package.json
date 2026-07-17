@@ -1,17 +1,5 @@
 {
   "dependencies": {
     "@opentelemetry/sdk-logs": "^0.218.0"
-  },
-  "customManagers": [
-    {
-      "customType": "regex",
-      "fileMatch": ["^package\\.json$"],
-      "matchStrings": [
-        "\"(?<depName>@opentelemetry/[^\"]+)\":\\s*\"(?<currentValue>[^\"]+)\""
-      ],
-      "datasourceTemplate": "github-releases",
-      "packageNameTemplate": "open-telemetry/opentelemetry-js",
-      "extractVersionTemplate": "^experimental/v?(?<version>.+)$"
-    }
-  ]
+  }
 }
