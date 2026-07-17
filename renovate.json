@@ -21,36 +21,6 @@
       "datasourceTemplate": "github-releases",
       "packageNameTemplate": "open-telemetry/opentelemetry-js",
       "extractVersionTemplate": "^api/v?(?<version>.+)$"
-    },
-    {
-      "customType": "regex",
-      "fileMatch": ["^package\\.json$"],
-      "matchStrings": [
-        "\"(?<depName>@opentelemetry/(?:api-logs|configuration|exporter-logs-otlp-grpc|exporter-logs-otlp-http|exporter-logs-otlp-proto|exporter-metrics-otlp-grpc|exporter-metrics-otlp-http|exporter-metrics-otlp-proto|exporter-prometheus|exporter-trace-otlp-grpc|exporter-trace-otlp-http|exporter-trace-otlp-proto|instrumentation|instrumentation-fetch|instrumentation-grpc|instrumentation-http|instrumentation-xml-http-request|opentelemetry-browser-detector|otlp-exporter-base|otlp-grpc-exporter-base|otlp-transformer|propagator-env-carrier|sampler-composite|sampler-jaeger-remote|sdk-logs|sdk-node|shim-opencensus|web-common))\":\\s*\"(?<currentValue>[^\"]+)\""
-      ],
-      "datasourceTemplate": "github-releases",
-      "packageNameTemplate": "open-telemetry/opentelemetry-js",
-      "extractVersionTemplate": "^experimental/v?(?<version>.+)$"
-    },
-    {
-      "customType": "regex",
-      "fileMatch": ["^package\\.json$"],
-      "matchStrings": [
-        "\"(?<depName>@opentelemetry/(?:context-async-hooks|context-zone|context-zone-peer-dep|core|exporter-jaeger|exporter-zipkin|propagator-b3|propagator-jaeger|resources|sdk-metrics|sdk-trace|sdk-trace-base|sdk-trace-node|sdk-trace-web|shim-opentracing|template))\":\\s*\"(?<currentValue>[^\"]+)\""
-      ],
-      "datasourceTemplate": "github-releases",
-      "packageNameTemplate": "open-telemetry/opentelemetry-js",
-      "extractVersionTemplate": "^v?(?<version>.+)$"
-    },
-    {
-      "customType": "regex",
-      "fileMatch": ["^package\\.json$"],
-      "matchStrings": [
-        "\"(?<depName>@opentelemetry/semantic-conventions)\":\\s*\"(?<currentValue>[^\"]+)\""
-      ],
-      "datasourceTemplate": "github-releases",
-      "packageNameTemplate": "open-telemetry/opentelemetry-js",
-      "extractVersionTemplate": "^semconv/v?(?<version>.+)$"
     }
   ]
 }
