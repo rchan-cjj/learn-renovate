@@ -1,5 +1,12 @@
 {
   "dependencies": {
     "@opentelemetry/sdk-logs": "^0.218.0"
-  }
+  },
+  "packageRules": [
+    {
+      "matchPackageNames": ["@opentelemetry/*"],
+      "matchDatasources": ["github-releases"],
+      "extractVersion": "^experimental/v?(?<version>.+)$"
+    }
+  ]
 }
