@@ -12,6 +12,14 @@
         "@opentelemetry/api"
       ],
       "sourceUrl": "https://github.com/open-telemetry/opentelemetry-js",
+      "sourceDirectory": "api"
+    },
+    {
+      "matchDatasources": ["npm"],
+      "matchPackageNames": [
+        "@opentelemetry/api-logs"
+      ],
+      "sourceUrl": "https://github.com/open-telemetry/opentelemetry-js",
       "sourceDirectory": "experimental"
     }
   ]
