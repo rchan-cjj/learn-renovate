@@ -10,7 +10,9 @@
       "matchDatasources": ["npm"],
       "matchPackageNames": [
         "@opentelemetry/api-logs"
-      ]
+      ],
+      "sourceUrl": "https://github.com/open-telemetry/opentelemetry-js/blob/main/experimental",
+      "changelogUrl": "https://github.com/open-telemetry/opentelemetry-js/blob/main/experimental/CHANGELOG.md"
     }
   ]
 }
