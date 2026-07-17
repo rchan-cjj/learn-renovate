@@ -1,11 +1,11 @@
 {
   "dependencies": {
     "@opentelemetry/api": "^1.8.0",
-    "@opentelemetry/api-logs": "^0.215.0",
-    "@opentelemetry/configuration": "^0.218.0",
+    "@opentelemetry/api-logs": "0.220.0",
+    "@opentelemetry/configuration": "0.220.0",
     "@opentelemetry/exporter-jaeger": "^2.7.0",
-    "@opentelemetry/sdk-logs": "^0.218.0",
-    "@opentelemetry/sdk-node": "^0.218.0",
+    "@opentelemetry/sdk-logs": "0.220.0",
+    "@opentelemetry/sdk-node": "0.220.0",
     "@opentelemetry/sdk-trace-web": "^2.7.0",
     "@opentelemetry/semantic-conventions": "^1.37.0"
   }
